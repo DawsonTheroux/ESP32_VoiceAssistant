@@ -1,0 +1,139 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x16e0
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2eb0
+entry 0x403c9908
+[0;32mI (27) boot: ESP-IDF v5.1.1 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Sep 23 2023 16:54:05[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.1[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (39) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (64) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0a0e0h ( 41184) map[0m
+[0;32mI (107) esp_image: segment 1: paddr=0001a108 vaddr=3fc91600 size=02808h ( 10248) load[0m
+[0;32mI (110) esp_image: segment 2: paddr=0001c918 vaddr=40374000 size=03700h ( 14080) load[0m
+[0;32mI (119) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18808h (100360) map[0m
+[0;32mI (143) esp_image: segment 4: paddr=00038830 vaddr=40377700 size=09each ( 40620) load[0m
+[0;32mI (158) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (158) boot: Disabling RNG early entropy source...[0m
+[0;32mI (169) cpu_start: Multicore app[0m
+[0;32mI (169) cpu_start: Pro cpu up.[0m
+[0;32mI (170) cpu_start: Starting app cpu, entry point is 0x40375260[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     main[0m
+[0;32mI (195) cpu_start: App version:      1[0m
+[0;32mI (200) cpu_start: Compile time:     Sep 23 2023 16:53:40[0m
+[0;32mI (206) cpu_start: ELF file SHA256:  c8081fc2bd2faa66...[0m
+[0;32mI (212) cpu_start: ESP-IDF:          v5.1.1[0m
+[0;32mI (217) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (222) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (226) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (231) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (238) heap_init: At 3FC94650 len 000550C0 (340 KiB): DRAM[0m
+[0;32mI (245) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (251) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (265) spi_flash: detected chip: gd[0m
+[0;32mI (268) spi_flash: flash io: dio[0m
+[0;33mW (272) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (285) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (292) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (299) app_start: Starting scheduler on CPU0[0m
+[0;32mI (304) app_start: Starting scheduler on CPU1[0m
+[0;32mI (304) main_task: Started on CPU0[0m
+[0;32mI (314) main_task: Calling app_main()[0m
+[0;32mI (314) gpio: GPIO[17]| InputEn: 1| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 1| Intr:2 [0m
+[0;32mI (324) main_task: Returned from app_main()[0m
+
+abort() was called at PC 0x40376ef3 on core 0
+
+
+Backtrace: 0x403757aa:0x3fc91f00 0x40379c31:0x3fc91f20 0x4037f416:0x3fc91f40 0x40376ef3:0x3fc91fb0 0x40377009:0x3fc91fe0 0x403770d8:0x3fc92000 0x4200dd12:0x3fc92030 0x4200d459:0x3fc92350 0x403773b9:0x3fc923a0 0x40377489:0x3fc923c0 0x403774fe:0x3fc923e0 0x40376ce9:0x3fc92400 0x4037852f:0x3fc988d0 0x4200275a:0x3fc988f0 0x4037ab85:0x3fc98910 0x4037c0d9:0x3fc98930
+
+
+
+
+ELF file SHA256: c8081fc2bd2faa66
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037562c
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x16e0
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc00
+load:0x403cc700,len:0x2eb0
+entry 0x403c9908
+[0;32mI (31) boot: ESP-IDF v5.1.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 23 2023 16:54:05[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (34) boot: chip revision: v0.1[0m
+[0;32mI (38) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (43) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0a0e0h ( 41184) map[0m
+[0;32mI (111) esp_image: segment 1: paddr=0001a108 vaddr=3fc91600 size=02808h ( 10248) load[0m
+[0;32mI (114) esp_image: segment 2: paddr=0001c918 vaddr=40374000 size=03700h ( 14080) load[0m
+[0;32mI (124) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18808h (100360) map[0m
+[0;32mI (147) esp_image: segment 4: paddr=00038830 vaddr=40377700 size=09each ( 40620) load[0m
+[0;32mI (162) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (162) boot: Disabling RNG early entropy source...[0m
+[0;32mI (173) cpu_start: Multicore app[0m
+[0;32mI (174) cpu_start: Pro cpu up.[0m
+[0;32mI (174) cpu_start: Starting app cpu, entry point is 0x40375260[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (192) cpu_start: Pro cpu start user code[0m
+[0;32mI (192) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (192) cpu_start: Application information:[0m
+[0;32mI (195) cpu_start: Project name:     main[0m
+[0;32mI (200) cpu_start: App version:      1[0m
+[0;32mI (204) cpu_start: Compile time:     Sep 23 2023 16:53:40[0m
+[0;32mI (210) cpu_start: ELF file SHA256:  c8081fc2bd2faa66...[0m
+[0;32mI (216) cpu_start: ESP-IDF:          v5.1.1[0m
+[0;32mI (221) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (226) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (231) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (236) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (243) heap_init: At 3FC94650 len 000550C0 (340 KiB): DRAM[0m
+[0;32mI (249) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (256) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (262) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (269) spi_flash: detected chip: gd[0m
+[0;32mI (272) spi_flash: flash io: dio[0m
+[0;33mW (276) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (290) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (296) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (304) app_start: Starting scheduler on CPU0[0m
+[0;32mI (308) app_start: Starting scheduler on CPU1[0m
+[0;32mI (308) main_task: Started on CPU0[0m
+[0;32mI (318) main_task: Calling app_main()[0m
+[0;32mI (318) gpio: GPIO[17]| InputEn: 1| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 1| Intr:2 [0m
+[0;32mI (328) main_task: Returned from app_main()[0m
+ � b�� /   � 'J� �
+abort() was called at PC 0x40376ef3 on co

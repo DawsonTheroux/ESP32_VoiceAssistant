@@ -1,0 +1,43 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- esp-idf-monitor 1.2.1 on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4200cb66: task_wdt_timeout_handling at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200cd12: task_wdt_isr at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40376d8d: _xt_lowint1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x42007854: uart_ll_get_txfifo_len at D:/Espressif/frameworks/esp-idf-v5.1.1/components/hal/esp32s3/include/hal/uart_ll.h:314 (discriminator 1)
+ (inlined by) uart_tx_char at D:/Espressif/frameworks/esp-idf-v5.1.1/components/vfs/vfs_uart.c:164 (discriminator 1)
+[0m
+[0;33m0x420086c3: uart_write at D:/Espressif/frameworks/esp-idf-v5.1.1/components/vfs/vfs_uart.c:217
+[0m
+[0;33m0x42007281: console_write at D:/Espressif/frameworks/esp-idf-v5.1.1/components/vfs/vfs_console.c:73
+[0m
+[0;33m0x42006e32: esp_vfs_write at D:/Espressif/frameworks/esp-idf-v5.1.1/components/vfs/vfs.c:445 (discriminator 4)
+[0m
+[0;33m0x4200fb95: __swrite at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/stdio.c:94
+[0m
+[0;33m0x420144f5: __sflush_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fflush.c:224
+[0m
+[0;33m0x4201457a: _fflush_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fflush.c:278
+[0m
+[0;33m0x4200f70f: __sfvwrite_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+[0m
+[0;33m0x420178af: __sprint_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+[0m
+[0;33m0x4201317a: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1777 (discriminator 1)
+[0m
+[0;33m0x4200f8bd: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x4200876f: send_LED_data at D:/Projects/ESP32/hello_freertos/main/main.c:73 (discriminator 3)
+[0m
+[0;33m0x420087b2: draw_LED_task at D:/Projects/ESP32/hello_freertos/main/main.c:93
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0m

@@ -1,0 +1,354 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- esp-idf-monitor 1.2.1 on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33mTo exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl-T Ctrl-X to exit.[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33mTo exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl-T Ctrl-X to exit.[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4037584e: panic_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5d9: esp_system_abort at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40380b4d: __assert_func at D:/Espressif/frameworks/esp-idf-v5.1.1/components/newlib/assert.c:81
+[0m
+[0;33m0x4037a8c4: xQueueGenericCreate at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/queue.c:479 (discriminator 1)
+[0m
+[0;33m0x4200ac97: spi_bus_add_device at D:/Espressif/frameworks/esp-idf-v5.1.1/components/driver/spi/gpspi/spi_master.c:426
+[0m
+[0;33m0x420087b7: app_main at D:/Projects/ESP32/hello_freertos/main/main.c:70
+[0m
+[0;33m0x4201a537: main_task at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cc91: vPortTaskWrapper at D:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x403756d0: esp_restart_noos_dig at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0;33m0x40375304: call_start_cpu1 at D:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0m
+Traceback (most recent call last):
+  File "D:\Espressif\frameworks\esp-idf-v5.1.1\tools/idf_monitor.py", line 11, in <module>
+    sys.exit(subprocess.run([sys.executable, '-m', 'esp_idf_monitor'] + sys.argv[1:]).returncode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "subprocess.py", line 550, in run
+  File "subprocess.py", line 1199, in communicate
+  File "subprocess.py", line 1262, in wait
+  File "subprocess.py", line 1543, in _wait
+KeyboardInterrupt
